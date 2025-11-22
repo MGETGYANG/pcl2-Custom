@@ -52,7 +52,7 @@
 <local:MyCard Title="服务器违规通知" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="违规人员:无" />
+                    Text="违规人员:111" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="违规原因:无" />
     </StackPanel>
@@ -63,4 +63,5 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
                     Text="（暂无）" />
     </StackPanel>
+
 </local:MyCard>
