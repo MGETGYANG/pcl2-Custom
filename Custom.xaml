@@ -31,7 +31,7 @@
             </StackPanel>
             <StackPanel Orientation="Vertical" Margin="8,4,0,4" VerticalAlignment="Center">
                 <local:MyButton Margin="0,-40,0,0" Width="140" Height="30" HorizontalAlignment="Center" ColorType="Highlight"
-                        Text="锦绣山河官网" EventType="打开网页" EventData="mc.qingwcx.com" />
+                        Text="Littleskin皮肤网站" EventType="打开网页" EventData="https://littleskin.cn/user/closet" />
                 <local:MyButton Margin="0,5,0,0" Width="140" Height="31" HorizontalAlignment="Center"
                         Text="JAVA下载链接" EventType="打开网页" EventData="https://bell-sw.com/pages/downloads/#jdk-11-lts" />
             </StackPanel>
@@ -64,6 +64,7 @@
     </StackPanel>
 
 </local:MyCard>
+
 
 
 
