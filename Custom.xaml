@@ -1,0 +1,66 @@
+﻿<local:MyCard Title="公告" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="
+绣岳临渊起始于2025年6月
+注意的是服内MOD请在客户端下载服务端内不提供mod支持
+                            "/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器史书编纂计划" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="
+无
+                            "/>
+
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器信息" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        
+        <StackPanel Orientation="Horizontal" Margin="0,4,4,4" HorizontalAlignment="Stretch">
+            <StackPanel Orientation="Vertical" Margin="0,4,0,4">
+                <local:MyHint IsWarn="False" Text="服务器社区QQ群:712895267" />
+                <local:MyHint IsWarn="False" Margin="0,4,0,4" Text="记得留意群里内容" />
+                <TextBlock TextWrapping="Wrap" Margin="5,0,0,0"
+                            Text="服务器版本:1.20.1 (Forge)" />
+                <TextBlock TextWrapping="Wrap" Margin="5,0,0,0"
+                            Text="客户端版本:1.20.2 (Forge)" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="8,4,0,4" VerticalAlignment="Center">
+                <local:MyButton Margin="0,-40,0,0" Width="140" Height="30" HorizontalAlignment="Center" ColorType="Highlight"
+                        Text="锦绣山河官网" EventType="打开网页" EventData="mc.qingwcx.com" />
+                <local:MyButton Margin="0,5,0,0" Width="140" Height="31" HorizontalAlignment="Center"
+                        Text="JAVA下载链接" EventType="打开网页" EventData="https://bell-sw.com/pages/downloads/#jdk-11-lts" />
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器近期日程" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="1. 暂定" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="2. 暂定" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器违规通知" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="违规人员:无" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="违规原因:无" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="违规处罚" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontWeight="Bold"
+                    Text="（暂无）" />
+    </StackPanel>
+</local:MyCard>
