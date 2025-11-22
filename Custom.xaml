@@ -54,7 +54,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
                     Text="违规人员:无" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="违规原因:222" />
+                    Text="违规原因:无" />
     </StackPanel>
 </local:MyCard>
 
@@ -65,6 +65,7 @@
     </StackPanel>
 
 </local:MyCard>
+
 
 
 
