@@ -1,8 +1,7 @@
 ﻿<local:MyCard Title="公告" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                    Text="
-11111111111111111111111111111111111111111111111111111"/>
+                    Text="锦绣山河"/>
     </StackPanel>
 </local:MyCard>
 
@@ -21,7 +20,7 @@
         
         <StackPanel Orientation="Horizontal" Margin="0,4,4,4" HorizontalAlignment="Stretch">
             <StackPanel Orientation="Vertical" Margin="0,4,0,4">
-                <local:MyHint IsWarn="False" Text="服务器社区QQ群:000000000000" />
+                <local:MyHint IsWarn="False" Text="服务器社区QQ群:712895267" />
                 <local:MyHint IsWarn="False" Margin="0,4,0,4" Text="记得留意群里内容" />
                 <TextBlock TextWrapping="Wrap" Margin="5,0,0,0"
                             Text="服务器版本:1.21.8 (paper)" />
@@ -63,6 +62,7 @@
     </StackPanel>
 
 </local:MyCard>
+
 
 
 
